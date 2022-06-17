@@ -23,12 +23,13 @@ body >* {
 
 .video{
     width: 100%;
-    height: 71%;
+    height: 70%;
     object-fit: cover;
     position: fixed;
     z-index: -1;
     opacity: .6;
     position: absolute;
+    
 }
 
 .logo {
@@ -70,15 +71,13 @@ ul li .reaver {
 ul li .reaver:hover {
     color: white;
 }
+
 .world {
-    height: 1rem;
-    width: 1rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    cursor: pointer;
 }
 
-.world::after {
-    content: "→";
-    color: blue;
-  }
 
 .duo-row_1 {
     display: flex;
@@ -86,23 +85,404 @@ ul li .reaver:hover {
     height: 5rem;
 }
 
+.duo-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 1.5rem;
+}
+
 .top a {
     color: rgb(190, 190, 190);
     text-decoration: none;
     font-family: "Reaver",serif;
-    font-size: 1rem;
+    font-size: 0.85rem;
+}
+
+.iniciar {
+    padding-right: 0.45rem;
+}
+
+.bot {
+    display: flex;
+    align-items: center;
+}
+
+.bot>* {
+    padding: 0 0.3rem;
 }
 
 .bot a {
     color: rgb(190, 190, 190);
     text-decoration: none;
     font-family: "Reaver",serif;
+    font-family: Radiance, "Noto Sans", sans-serif;
 
 }   
 
-.play {
-    background-color: transparent;
-    color: white;
-    padding: 2rem 4rem;
-    border-color: white;
+.arrow-right {
+    cursor: pointer;    
 }
+
+.play {
+    display: flex;
+    align-items: center;
+    transition: border .5s;
+    padding: .9rem 1.9rem;
+    margin-right: 1rem;
+    border-radius: 0.3rem 0.5rem;
+    background-color: transparent;
+    border: solid 0.20rem rgb(112, 112, 112);
+    cursor: pointer;
+}
+
+.play:hover {
+    border: solid 0.20rem #ff6036;
+    margin-bottom: 0.3rem;
+    transition: 0.2s;
+}
+
+.play a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;    
+    margin-left:1rem;
+    font-size: 1.3rem;
+}
+
+.steam-button {
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.middle {
+    width: 57rem;
+    height: 27rem;
+    margin-top: 4.35rem;
+    margin-left: 12rem;
+}
+
+.obra {
+    color: white;
+    font-family: "Reaver", serif;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-weight: 600;
+    text-shadow: 0px 0px 20px #000;
+    margin-bottom: 0;
+}
+
+.destructoid {
+    color: #ffffff90;
+    font-family: "Radiance", sans-serif;
+    font-size: 1.3rem;
+    margin: .3rem 0;
+    font-weight: 400;
+}
+
+.line {
+    background-color: #ff6036;
+    padding: 2.6px 5rem 0 0;
+    box-sizing: border-box; 
+    display: block;
+    margin: 1.5rem 0;
+    inline-size: 1rem;
+}
+
+.play-2 {
+    display: flex;
+    align-items: center;
+    transition: border .5s;
+    padding: .9rem 1.3rem;
+    margin-right: 1rem;
+    border-radius: 0.3rem 0.5rem;
+    background-color: transparent;
+    border: solid 0.20rem rgb(134, 134, 134);
+    cursor: pointer;
+    width: 15rem;
+    height: 2.9rem;
+}
+
+.steam-button_2 {
+    margin-right: 1rem;
+    margin-left: .1rem;
+}
+
+.box-inset {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.play-2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.play-2 p {
+    margin: 0;
+    color: #ffffff90;   
+    font-size: .92rem;
+}
+
+.box-bot {
+    margin: 0 auto;
+    inline-size: 75rem;
+    block-size: auto;
+    margin-top: 2.3rem;
+}
+
+.duo-content_top {
+    display: flex;
+    align-items: center;
+}
+
+.duo-content_top p {
+    color: white;
+    padding: 0 1rem;
+}
+
+.duo-content_top a {
+    text-decoration: none;
+    color: #ffffff90;   
+    line-height: 0;
+    padding: 0 1rem;
+}
+
+.three-content_bot {
+    display: flex;
+}
+
+.three-content_bot img {
+    height: 15rem;
+    width: 25rem;
+    padding: 0 .7rem;
+}
+
+.ancient-radiant {
+    background-image: url("../img/radiant_dire.jpg");
+    padding-top: 3%;
+    margin-bottom: 30%;
+    width: 100%;
+    height: 60vh;
+    opacity: .8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+}
+
+.ancient-radiant>* {
+    margin: 0;
+    z-index: 99999;
+}
+
+.ancient-radiant:first-child {
+    color: #ffffff90;   
+}
+
+.unete {
+    font-family: "Reaver",serif;
+    font-weight: 600;
+    font-size: 5rem;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 48rem;
+}
+
+.batalla {
+    font-family: "Reaver",serif;
+    font-weight: 900;
+    font-size: 6.5rem;
+    color: #fff;
+    opacity: inherit;
+}
+
+.line-2 {
+    background-color: #ff6036;
+    padding: 2.6px 5rem 0 0;
+    box-sizing: border-box; 
+    display: block;
+    margin: 1rem 0;
+    inline-size: 1rem;
+}
+
+.cada {
+    color: white;
+    inline-size: 60rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.play-repeat {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    transition: border .5s;
+    padding: .1rem 4rem;
+    margin-right: 1rem;
+    border-radius: 0.3rem 0.5rem;
+    border: solid 0.20rem rgb(112, 112, 112);
+    cursor: pointer;
+}
+
+.play-repeat:hover {
+    border-color: #ff6036;
+}
+
+.play-repeat P {
+    color: white;
+}
+
+
+.heroes-legion {
+    background-image: url("../img/heroes-plus.jpg");
+    width: auto;
+    height: 130vh;
+    opacity: .8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 36px 46px 7px rgba(0,0,0,0.61) inset;
+    opacity: .6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+}
+
+
+.heroes-legion>* {
+    margin: 1rem 0;
+}
+
+.a-quien {
+    font-family: "Reaver",serif;
+    font-weight: 600;
+    font-size: 5rem;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 80rem;
+    line-height: .5rem;
+}
+
+.heroes-javascript {
+    background-image: url("../img/space.png");
+    margin-top: 20rem;
+    width: auto;
+    height: 100vh;
+    opacity: .8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.te-i {
+    background-image: url("../img/ti_10.jpg");
+    margin-top: 8rem;
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .dpc {
+        margin-top: 21rem;
+    }
+
+    .circuit {
+        color: white;
+        margin: 0;
+        font-size: 7rem;
+        font-family: "Radiance","Noto Sans",sans-serif;
+    }
+
+    .p-te {
+        color: white;
+        font-size: 7rem;
+        margin: 0;
+        line-height: 3.5rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .cuando {
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        inline-size: 70rem;
+        font-size: 1.4rem;
+        color: #e2dace;
+    }
+
+.blood {
+    background-image: url("../img/blood.png");
+    width: auto;
+    height: 47vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+    .container-blood{
+        padding-left: 10rem;
+    }
+
+    .un {
+        color: #E2DACE90;        
+        margin: 0;
+        font-size: 5rem;
+        font-family: Reaver,serif;
+    }
+
+    .battle {
+        color: #e2dace;        
+        margin: 0;
+        font-size: 7rem;
+        font-family: Reaver,serif;
+    }
+
+.play-repeat_ultimate {
+    margin-top: .5rem;
+    border-radius: 0.3rem 0.5rem;
+    background-color: transparent;
+    border: solid 0.20rem rgb(112, 112, 112);
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 0rem 3.5rem;
+}
+
+.footer-black {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    inline-size: 33rem;
+}
+    .duo-img {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .duo-img>* {
+        width: 8.3rem;
+        height: 1.95rem;
+    }
+
+    .footer-black p {
+        color: #777;
+        text-align: center;
+        font-size: .76rem;
+    }
+
+    
