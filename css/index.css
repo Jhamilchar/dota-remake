@@ -299,6 +299,7 @@ ul li .reaver:hover {
     font-size: 6.5rem;
     color: #fff;
     opacity: inherit;
+    text-align: center;
 }
 
 .line-2 {
@@ -399,6 +400,8 @@ ul li .reaver:hover {
         margin: 0;
         font-size: 7rem;
         font-family: "Radiance","Noto Sans",sans-serif;
+        line-height: 8rem;
+        text-align: center;
     }
 
     .p-te {
@@ -490,4 +493,87 @@ ul li .reaver:hover {
         font-size: .76rem;
     }
 
+
+@media screen and (min-width: 1440px) {
+    :root {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    :root {
+        font-size: 12.5px;
+    }
+
+    .play {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        font-size: 9px;
+    }
+
+    .obra {
+        font-size: 5.9rem;
+        line-height: 5.5rem;
+    }
+
+    .video {
+        height: 75%;
+    }
+
+    .middle {
+        width: 42rem;
+        height: 43rem;
+        margin-left: 10rem;
+        margin-top: 6rem;
+    }
+
+    .middle>* {
+        margin: 2rem 0;
+    }
+
+    .destructoid {
+        font-size: 1.9rem;
+    }
+
+    .line {
+        inline-size: 7rem;
+    }
     
+    .play-2 p {
+        font-size: 1.4rem;
+    }
+
+    .play-2 a {
+        font-size: 1.3rem;
+    }
+
+    .play-2 {
+        padding: 1.3rem 4rem;
+        border-radius: 0.3rem 0.5rem;
+        background-color: transparent;
+        border: solid 0.30rem rgb(134, 134, 134);
+        cursor: pointer;
+        width: 15rem;
+        height: 2.9rem;
+    }
+
+    .duo-content_top>* {
+        font-size: 1.4rem;
+    }
+    
+    .three-content_bot img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        font-size: 5.4px;
+    }
+}
