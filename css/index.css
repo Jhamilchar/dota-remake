@@ -454,13 +454,18 @@ ul li .reaver:hover {
     margin-top: .5rem;
     border-radius: 0.3rem 0.5rem;
     background-color: transparent;
-    border: solid 0.20rem rgb(112, 112, 112);
+    border: solid 0.18rem rgb(112, 112, 112);
     cursor: pointer;
     text-align: center;
     color: white;
     font-size: 1.2rem;
     display: inline-block;
     padding: 0rem 3.5rem;
+    transition: 0.2s;
+}
+
+.play-repeat_ultimate:hover {
+    border-color: #ff6036;
 }
 
 .footer-black {
