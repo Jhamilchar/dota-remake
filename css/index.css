@@ -689,3 +689,16 @@ ul li .reaver:hover {
     }
 }
 
+@media screen and (max-width: 375px) {
+    :root {
+        font-size: 4.4px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    :root {
+        font-size: 3.8px;
+    }
+}
+
+
