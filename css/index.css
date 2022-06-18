@@ -675,5 +675,17 @@ ul li .reaver:hover {
     :root {
         font-size: 5px;
     }
+
+    .ancient-radiant {
+        margin-top: 45rem;
+    }
+
+    .middle {
+        margin-top: 33rem;
+    }
+    
+    .box-bot {
+        margin-top: 32rem;
+    }
 }
 
