@@ -671,6 +671,23 @@ ul li .reaver:hover {
     }
 }
 
+@media screen and (max-width: 464px) {
+    :root {
+        font-size: 5px;
+    }
+    .ancient-radiant {
+        margin-top: 45rem;
+    }
+
+    .middle {
+        margin-top: 33rem;
+    }
+    
+    .box-bot {
+        margin-top: 28rem;
+    }
+}
+
 @media screen and (max-width: 425px) {
     :root {
         font-size: 5px;
