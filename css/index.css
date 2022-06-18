@@ -516,6 +516,37 @@ ul li .reaver:hover {
         font-size: 9px;
     }
 
+    .logo {
+        display: none;
+    }
+    
+    ul {
+        margin-left: 7.5rem;
+        margin-top: 3rem;
+    }
+
+    ul li .reaver {
+        font-size: 1.9rem;
+    }
+
+    .world {
+        height: 1.3rem;
+        width: 1.3rem;
+        cursor: pointer;
+    }
+
+    .duo-top {
+        margin-top: 1rem;
+    }
+
+    .bot a {
+        font-size: 1.2rem;
+    }
+
+    .iniciar {
+        font-size: 1.15rem !important;
+    }
+
     .obra {
         font-size: 5.9rem;
         line-height: 5.5rem;
@@ -545,21 +576,25 @@ ul li .reaver:hover {
     }
     
     .play-2 p {
-        font-size: 1.4rem;
+        font-size: 1.35rem;
     }
 
     .play-2 a {
-        font-size: 1.3rem;
+        font-size: 2.3rem;
     }
 
     .play-2 {
-        padding: 1.3rem 4rem;
         border-radius: 0.3rem 0.5rem;
         background-color: transparent;
         border: solid 0.30rem rgb(134, 134, 134);
         cursor: pointer;
-        width: 15rem;
-        height: 2.9rem;
+        height: 3.5rem;
+        width: 22rem;
+    }
+
+    .steam-button_2 {
+        height: 2.7rem;
+        width: 2.7rem;
     }
 
     .duo-content_top>* {
@@ -567,13 +602,78 @@ ul li .reaver:hover {
     }
     
     .three-content_bot img {
-        height: 100%;
-        width: 100%;
+        height: 18rem;
+        width: 26.4rem;
+    }
+    .three-content_bot {
+        justify-content: space-between;
+    }
+
+    .duo-content_top p {
+        margin: 2rem 0;
+    }
+
+    .box-bot {
+        inline-size: 84rem;
+    }
+
+    .unete{
+        font-size: 5.5rem;
+    }
+
+    .batalla {
+        font-size: 9rem;
+    }
+
+    .cada {
+        inline-size: 100%;
+        font-size: 2rem;
+    }
+
+    .play-repeat p {
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+
+    .circuit{
+        font-size: 8.6rem;
+    }
+
+    .p-te {
+        font-size: 8.6rem;
+        line-height: 8rem;
+    }
+
+    .cuando {
+        font-size: 2rem;
+        inline-size: 50rem;
+    }
+
+    .un {
+        font-size: 6rem;
+    }
+
+    .battle {
+        font-size: 10rem;
+    }
+
+    .play-repeat_ultimate p {
+        font-size: 1.8rem;
+    }
+
+    .duo-img>* {
+        width: 9.5rem;
+        height: 2.3rem;
+    }
+
+    .footer-black p {
+        font-size: 1.2rem;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
     :root {
-        font-size: 5.4px;
+        font-size: 5px;
     }
 }
+
